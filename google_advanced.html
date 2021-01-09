@@ -1,55 +1,64 @@
-<head>
-    <title>Google Homepage</title>
-    <link rel="stylesheet" href="/Users/mbp/kode/python3/search/google.css">
-      <ul id="nav_bar">
-        <li class="nav-links" id="gmail"><a href="google.html">Search</a></li>
-        <li class="nav-links"><a href="google_image.html">Images</a></li>
-      </ul>  
-  </nav>  
-  </head>
-  
-  <body>
-    <h1>
-    <span class="blue">G</span>
-    <span class="red">o</span>
-    <span id="orange">o</span>
-    <span class="blue">g</span>
-    <span id="green">l</span>
-    <span class="red">e</span>
-    </h1>
-    <h6>
-      Advanced Search
-    </h6>
-  
-    <!-- FORM SEARCH -->  
-    <div class="form_left">  
-      <form action="https://www.google.ca/search?">
-        
-        <table>
-          <tr>
-            <td>All these words:</td>
-            <td><input type="text" name="as_q"></td>
-          </tr>
-          <tr>
-            <td>Exact word/phrase:</td>
-            <td><input type="text" name="as_epq"></td>
-          </tr>
-          <tr>
-            <td>Any of these words:</td>
-            <td><input type="text" name="as_oq"></td>
-          </tr>
-          <tr>
-            <td>None of these words:</td>
-            <td><input type="text" name="as_eq"></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><input type="submit" value="advanced search" id="adv_search">
-            </td>
-          </tr>
-        </table>
+<!DOCTYPE html>
+  <html lang="en">
 
-      </form>
-    </div>  
-     
-  </body>
+    <head>
+      <title>Google Advanced Search</title>
+      <link rel="stylesheet" href="/Users/mbp/kode/python3/search/google.css">
+        <nav>
+            <ul id="nav_bar">
+              <li class="nav-links"><a href="google.html">Search</a></li>
+              <li class="nav-links"><a href="google_image.html">Images</a></li>
+            </ul>  
+        </nav>  
+    </head>
+
+    <body>
+      <div>
+        <h1>
+          <span class="blue">G</span>
+          <span class="red">o</span>
+          <span id="orange">o</span>
+          <span class="blue">g</span>
+          <span id="green">l</span>
+          <span class="red">e</span>
+        </h1>
+
+        <h6>
+          Advanced Search
+        </h6>
+      </div>
+
+    <!-- FORM SEARCH -->  
+      <div class="form_left">  
+        <form action="https://www.google.ca/search?">
+          
+          <table>
+            <tr>
+              <td>All these words:</td>
+              <td><input type="text" name="as_q"></td>
+            </tr>
+            <tr>
+              <td>Exact word/phrase:</td>
+              <td><input type="text" name="as_epq"></td>
+            </tr>
+            <tr>
+              <td>Any of these words:</td>
+              <td><input type="text" name="as_oq"></td>
+            </tr>
+            <tr>
+              <td>None of these words:</td>
+              <td><input type="text" name="as_eq"></td>
+            </tr>
+            <tr>
+              <td></td>
+    <!-- BUTTON -->
+              <td>
+                <input type="submit" value="advanced search" id="adv_search">
+              </td>
+            </tr>
+          </table>
+
+        </form>
+      </div>        
+    </body>
+  </html> 

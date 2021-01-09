@@ -1,16 +1,28 @@
+/* NAV BAR */
+#nav_bar {
+  float: right;
+  text-align: right;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 8px;
+}
+
+.nav-links {
+  color: blue;
+}
+
 /* Google */
 h1 {
   text-align: center;
-  padding: 100 0 0 0px;
+  padding-top: 200px;
 }
 
 h6 {
   text-align: center;
   padding: 0 0 0 150px;
   color: blue;
-}
-tr td {
-  padding: 0 0 0 8px;
 }
 
 .blue {
@@ -29,30 +41,10 @@ tr td {
   color: green;
 }
 
-
-/* NAV BAR */
-#nav_bar {
-  float: right;
-  text-align: right;
-}
-
-#nav_bar li {
-  display: inline-block;
-  padding: 8px;
-}
-
-.nav-links {
-  color: blue;
-}
-
 /* FORM */
 
 .form {
   text-align: center;
-}
-
-.form_left {
-  text-align: left;
 }
 
 #search_bar { 
@@ -63,16 +55,24 @@ tr td {
   padding: 0 8px;
 }
 
-#search, #lucky_search {
-  padding: 8px;
-  margin: 30 8 0 8px;
+.buttons {
+  margin-top: 20px;
   text-align: center;
+}
+
+#search, #lucky_search {
+  margin-left: 10px;
+  padding: 5px;
 }
 
 #adv_search {
   background-color: blue;
   color: white;
   text-align: left;
-  margin: 30 0 0px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+tr td {
   padding: 8px;
 }
